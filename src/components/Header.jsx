@@ -11,7 +11,6 @@ const Header = () => {
           <a href="#">Assets</a>
           <a href="#">Hire</a>
           <a href="#">Jobs</a>
-          <input type="text" placeholder='Search...'/>
         </div>
         <div>
           <img/>

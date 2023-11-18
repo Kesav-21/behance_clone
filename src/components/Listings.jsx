@@ -1,8 +1,14 @@
 import React from 'react'
+import Card from './Card'
 
 const Listings = () => {
   return (
-    <div>Listings</div>
+    <div className='listing-container'>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+    </div>
   )
 }
 
