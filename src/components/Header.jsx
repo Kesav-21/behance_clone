@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className='navbar-section'>
         <div className='navbar-menu'>
-          <img src="/src/assets/images/logo.png" width={100} height={20}/>
+          <img src="./assets/images/logo.png" width={100} height={20}/>
           <a href="#">For You</a>
           <a href="#">Discover</a>
           <a href="#">Assets</a>
@@ -12,7 +12,7 @@ const Header = () => {
           <a href="#">Jobs</a>
         </div>
         <div className='navbar-account'>
-          <img src="/src/assets/images/notification.svg" alt="" />
+          <img src="./assets/images/notification.svg" alt="" />
           <a href='#'><button className='login-btn'>Login</button></a>
           <a href='#'><button  className='signup-btn'>Sign Up</button></a>
           <div></div>
