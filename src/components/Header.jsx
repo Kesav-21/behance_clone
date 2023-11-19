@@ -16,8 +16,8 @@ const Header = () => {
           <a href='#'><button className='login-btn'>Login</button></a>
           <a href='#'><button  className='signup-btn'>Sign Up</button></a>
           <div></div>
-          <a  href='#'><button className='freetrail-btn'><img src="/src/assets/images/cloud.svg" alt="" width={20} height={20}/>Free Trail</button></a>
-          <a  href="#"><button className='adobe-btn'><img src="/src/assets/images/adobe.svg" alt="" width={20} height={20}/>Adobe</button></a>
+          <a  href='#'><button className='freetrail-btn'><img src="./assets/images/cloud.svg" alt="" width={20} height={20}/>Free Trail</button></a>
+          <a  href="#"><button className='adobe-btn'><img src="./assets/images/adobe.svg" alt="" width={20} height={20}/>Adobe</button></a>
         </div>
     </div>
   )

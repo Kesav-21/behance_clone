@@ -11,11 +11,11 @@ const Card = (props) => {
         </div>
         <div className="card-interaction">
             <p>
-                <img src="/src/assets/images/like.svg" alt="" />
+                <img src="./assets/images/like.svg" alt="" />
                 {props.likesCount}
             </p>
             <p>
-                <img src="/src/assets/images/view.svg" alt="" />
+                <img src="./assets/images/view.svg" alt="" />
                 {props.viewsCount}
             </p>
         </div>

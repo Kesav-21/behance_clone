@@ -13,7 +13,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/1.webp"
+        src:"./assets/images/1.webp"
     },
     {
         id:2,
@@ -29,7 +29,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/2.webp"
+        src:"./assets/images/2.webp"
     },
     {
         id:3,
@@ -45,7 +45,7 @@ export const data=[
         viewed:false,
         discussed:true,
         recent:false,
-        src:"/src/assets/images/3.webp"
+        src:"./assets/images/3.webp"
     },
     {
         id:4,
@@ -61,7 +61,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:false,
-        src:"/src/assets/images/4.webp"
+        src:"./assets/images/4.webp"
     },
     {
         id:5,
@@ -77,7 +77,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:false,
-        src:"/src/assets/images/5.webp"
+        src:"./assets/images/5.webp"
     },
     {
         id:6,
@@ -93,7 +93,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:false,
-        src:"/src/assets/images/6.webp"
+        src:"./assets/images/6.webp"
     },
     {
         id:7,
@@ -109,7 +109,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/7.webp"
+        src:"./assets/images/7.webp"
     },
     {
         id:8,
@@ -125,7 +125,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/8.webp"
+        src:"./assets/images/8.webp"
     },
     {
         id:9,
@@ -141,7 +141,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/9.webp"
+        src:"./assets/images/9.webp"
     },
     {
         id:10,
@@ -157,7 +157,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/10.webp"
+        src:"./assets/images/10.webp"
     },
     {
         id:11,
@@ -173,7 +173,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/11.webp"
+        src:"./assets/images/11.webp"
     },
     {
         id:12,
@@ -189,7 +189,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/12.webp"
+        src:"./assets/images/12.webp"
     },
     {
         id:13,
@@ -205,7 +205,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/13.webp"
+        src:"./assets/images/13.webp"
     },
     {
         id:14,
@@ -221,7 +221,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/14.webp"
+        src:"./assets/images/14.webp"
     },
     {
         id:15,
@@ -237,7 +237,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/15.webp"
+        src:"./assets/images/15.webp"
     },
     {
         id:16,
@@ -253,7 +253,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/16.webp"
+        src:"./assets/images/16.webp"
     },
     {
         id:17,
@@ -269,7 +269,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/17.webp"
+        src:"./assets/images/17.webp"
     },
     {
         id:18,
@@ -285,7 +285,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/18.webp"
+        src:"./assets/images/18.webp"
     },
     {
         id:19,
@@ -301,7 +301,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/19.webp"
+        src:"./assets/images/19.webp"
     },
     {
         id:20,
@@ -317,7 +317,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/20.webp"
+        src:"./assets/images/20.webp"
     },
     {
         id:21,
@@ -333,7 +333,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/21.webp"
+        src:"./assets/images/21.webp"
     },
     {
         id:22,
@@ -349,7 +349,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/22.webp"
+        src:"./assets/images/22.webp"
     },
     {
         id:23,
@@ -365,7 +365,7 @@ export const data=[
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/images/23.webp"
+        src:"./assets/images/23.webp"
     },
     {
         id:24,
@@ -381,7 +381,7 @@ export const data=[
         viewed:true,
         discussed:false,
         recent:true,
-        src:"/src/assets/images/24.webp"
+        src:"./assets/images/24.webp"
     },
     {
         id:25,
@@ -397,7 +397,7 @@ export const data=[
         viewed:true,
         discussed:false,
         recent:true,
-        src:"/src/assets/images/25.webp"
+        src:"./assets/images/25.webp"
     },
 
 ]
