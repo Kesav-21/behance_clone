@@ -3,7 +3,7 @@ import React from "react";
 const Card = (props) => {
   return (
     <div>
-      <img className="card-img" src="/src/assets/1.webp" alt="1" />
+      <img className="card-img" src={props.src} alt={props.id} />
       <div className="card-desc">
         <div className="card-title">
           <h3>{props.title}</h3>
@@ -11,11 +11,11 @@ const Card = (props) => {
         </div>
         <div className="card-interaction">
             <p>
-                <img src="/src/assets/like.svg" alt="" />
+                <img src="/src/assets/images/like.svg" alt="" />
                 {props.likesCount}
             </p>
             <p>
-                <img src="/src/assets/view.svg" alt="" />
+                <img src="/src/assets/images/view.svg" alt="" />
                 {props.viewsCount}
             </p>
         </div>

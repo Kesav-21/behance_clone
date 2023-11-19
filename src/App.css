@@ -153,6 +153,7 @@
 .card-desc{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .card-title h3{
@@ -170,4 +171,35 @@
 }
 .card-interaction p img{
     padding: 0 5px;
+}
+
+.sort-section select{
+    border: none;
+    font-weight: 200;
+    color:rgb(92, 92, 92);
+}
+
+.sort-selection{
+   margin: 0;
+}
+
+
+#search-suggestion {
+    position: absolute;
+  border: 1px dotted #ccc;
+  background-color: white;
+  padding: 3px;
+  z-index: 1000;
+  width: 45%;
+}
+#search-suggestion ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#search-suggestion ul li {
+  padding: 5px 0;
+}
+#search-suggestion ul li:hover {
+  background: #eee;
 }

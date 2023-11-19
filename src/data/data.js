@@ -1,5 +1,6 @@
 export const data=[
     {
+        id:1,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -7,14 +8,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/1.webp"
     },
     {
+        id:2,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -22,14 +24,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/2.webp"
     },
     {
+        id:3,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -37,14 +40,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:true,
         appreciated:true,
-        viewed:true,
+        viewed:false,
         discussed:true,
-        recent:true,
-        src:"/src/assets/1.webp"
+        recent:false,
+        src:"/src/assets/images/3.webp"
     },
     {
+        id:4,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -52,14 +56,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
-        appreciated:true,
+        curated:false,
+        appreciated:false,
         viewed:true,
         discussed:true,
-        recent:true,
-        src:"/src/assets/1.webp"
+        recent:false,
+        src:"/src/assets/images/4.webp"
     },
     {
+        id:5,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -67,14 +72,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
-        recent:true,
-        src:"/src/assets/1.webp"
+        recent:false,
+        src:"/src/assets/images/5.webp"
     },
     {
+        id:6,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -82,14 +88,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
-        recent:true,
-        src:"/src/assets/1.webp"
+        recent:false,
+        src:"/src/assets/images/6.webp"
     },
     {
+        id:7,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -97,14 +104,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/7.webp"
     },
     {
+        id:8,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -112,14 +120,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/8.webp"
     },
     {
+        id:9,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -127,14 +136,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/9.webp"
     },
     {
+        id:10,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -142,14 +152,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/10.webp"
     },
     {
+        id:11,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -157,14 +168,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/11.webp"
     },
     {
+        id:12,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -172,14 +184,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/12.webp"
     },
     {
+        id:13,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -187,14 +200,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/13.webp"
     },
     {
+        id:14,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -202,14 +216,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/14.webp"
     },
     {
+        id:15,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -217,14 +232,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/15.webp"
     },
     {
+        id:16,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -232,14 +248,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/16.webp"
     },
     {
+        id:17,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -247,14 +264,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/17.webp"
     },
     {
+        id:18,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -262,14 +280,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/18.webp"
     },
     {
+        id:19,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -277,14 +296,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/19.webp"
     },
     {
+        id:20,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -292,14 +312,15 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:false,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/20.webp"
     },
     {
+        id:21,
         title:"Himalayan Mountains - Part 1",
         author:"Daniel Tjongari",
         likesCount:38,
@@ -307,12 +328,78 @@ export const data=[
         viewsCount:183,
         format:"Be",
         recommended:true,
-        iscurated:true,
+        curated:true,
         appreciated:true,
         viewed:true,
         discussed:true,
         recent:true,
-        src:"/src/assets/1.webp"
+        src:"/src/assets/images/21.webp"
+    },
+    {
+        id:22,
+        title:"Himalayan Mountains - Part 1",
+        author:"Daniel Tjongari",
+        likesCount:38,
+        liked:true,
+        viewsCount:183,
+        format:"Be",
+        recommended:true,
+        curated:true,
+        appreciated:true,
+        viewed:true,
+        discussed:true,
+        recent:true,
+        src:"/src/assets/images/22.webp"
+    },
+    {
+        id:23,
+        title:"Himalayan Mountains - Part 1",
+        author:"Daniel Tjongari",
+        likesCount:38,
+        liked:true,
+        viewsCount:183,
+        format:"Be",
+        recommended:true,
+        curated:true,
+        appreciated:true,
+        viewed:true,
+        discussed:true,
+        recent:true,
+        src:"/src/assets/images/23.webp"
+    },
+    {
+        id:24,
+        title:"Himalayan Mountains - Part 1",
+        author:"Daniel Tjongari",
+        likesCount:38,
+        liked:true,
+        viewsCount:183,
+        format:"Be",
+        recommended:true,
+        curated:true,
+        appreciated:true,
+        viewed:true,
+        discussed:false,
+        recent:true,
+        src:"/src/assets/images/24.webp"
+    },
+    {
+        id:25,
+        title:"Himalayan Mountains - Part 1",
+        author:"Daniel Tjongari",
+        likesCount:38,
+        liked:true,
+        viewsCount:183,
+        format:"Be",
+        recommended:true,
+        curated:true,
+        appreciated:true,
+        viewed:true,
+        discussed:false,
+        recent:true,
+        src:"/src/assets/images/25.webp"
     },
 
 ]
+
+export const search_terms = ['digital','typography','art','artwork','games','wallpaper','album','apple','orange','comedy','photography','photo','videos','shooting'];
