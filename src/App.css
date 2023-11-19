@@ -3,10 +3,10 @@
     display: flex;
     background-color: white;
     justify-content: space-between;
-    background-color: antiquewhite;
-    min-height: 50px;
+    height: 40px;
     padding: 10px;
     align-items: center;
+    border: 1px solid gray;
 }
 
 .navbar-menu a{
@@ -28,19 +28,102 @@
 
 
 .login-btn{
-    padding: 10px;
+    padding:10px;
+    width: 100px;
     border-radius: 20px;
     background-color: white;
-    color: blue;
+    color: rgb(42, 134, 255);
+    font-size: medium;
+    font-weight: 700;
+    border: 1px rgb(187, 212, 250) solid;
 }
 
 .signup-btn{
     padding: 10px;
+    width: 100px;
     border-radius: 20px;
-    background-color: blue;
+    background-color: rgb(0, 99, 247);
     color:white;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
 }
 
+.freetrail-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;;
+    color:black;
+    display: flex;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px rgb(207, 207, 207) solid;
+}
+
+.adobe-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;;
+    color:black;
+    display: flex;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+}
+.adobe-btn img,.freetrail-btn img{
+    padding: 0 5px;
+}
+
+.filter-section{
+    margin: 30px 0px;
+}
+
+.search-option{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.search-section{
+    width: 50%;
+}
+
+.search-input{
+    width: 90%;
+    height: 50px;
+    font-size: large;
+    font-weight: 800;
+    padding: 5px 40px ;
+    border-radius: 30px 0px 0px 30px;
+    background-color: rgb(236, 236, 236);
+}
+.search-input-icon{
+    position: absolute;
+    margin: 10px 10px;
+}
+
+.category-section{
+    width: 50%;
+    border:1px gray solid;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    border-radius: 0px 30px 30px 0px;
+    padding: 15px;
+}
+
+.category-section a{
+    color:black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    padding: 5px ;
+    border-radius: 20px;
+}
+.active{
+    background-color: black;
+    color: white!important;;
+}
 
 .listing-container{
     display: grid;
@@ -48,6 +131,42 @@
     column-gap: 1%;
 }
 
+.filter-selection{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+    width: 95%;
+}
+
+.filter-selection select{
+    font-size: larger;
+    margin: 0 10px;
+    height: 35px;
+    font-weight: 600;
+}
+
 .card-img{
     width: 100%;
+}
+
+.card-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title h3{
+    margin: 5px;
+}
+.card-title p{
+    margin: 0;
+}
+
+.card-interaction{
+    display: flex;
+}
+.card-interaction p{
+    margin: 10px;
+}
+.card-interaction p img{
+    padding: 0 5px;
 }
