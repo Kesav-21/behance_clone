@@ -1,8 +1,23 @@
-# React + Vite
+# Behance Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technology Used
 
-Currently, two official plugins are available:
+- HTML
+- CSS
+- JavaScript
+- ReactJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Checklist done
+- [x] Simplified Version of Behance.net
+- [x] Add Search AutoCompletion
+- [x] Sort Based on Recommended, Recenet, Curated, etc
+
+## Search AutoCompletion
+
+It has only few keywords added for autocompletion it can be found in the data.js file.
+
+## Deployed at Vercel
+
+[Behance Clone](https://behance-clone-five.vercel.app/)
+
+

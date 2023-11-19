@@ -9,6 +9,10 @@
     border: 1px solid gray;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar-menu a{
     text-decoration: none;
     color: black;
@@ -74,6 +78,8 @@
     padding: 0 5px;
 }
 
+/* Filter Section */
+
 .filter-section{
     margin: 30px 0px;
 }
@@ -125,6 +131,8 @@
     color: white!important;;
 }
 
+/* Listing Section */
+
 .listing-container{
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
@@ -145,6 +153,8 @@
     height: 35px;
     font-weight: 600;
 }
+
+/* Card Section */
 
 .card-img{
     width: 100%;
@@ -173,6 +183,8 @@
     padding: 0 5px;
 }
 
+/* Sort Selection Section */
+
 .sort-section select{
     border: none;
     font-weight: 200;
@@ -183,14 +195,16 @@
    margin: 0;
 }
 
+/* Search Bar Section*/
 
 #search-suggestion {
     position: absolute;
   border: 1px dotted #ccc;
   background-color: white;
   padding: 3px;
-  z-index: 1000;
   width: 45%;
+  font-size: larger;
+  font-weight: 500;
 }
 #search-suggestion ul {
   list-style-type: none;
@@ -202,4 +216,100 @@
 }
 #search-suggestion ul li:hover {
   background: #eee;
+}
+.navbar-menu-mobile{
+    display: none;
+}
+
+/* Mobile Responsive */
+
+@media only screen and (max-width: 768px) {
+  .listing-container{
+    grid-template-columns: auto auto;
+  }
+  .category-section{
+    display: none;
+  }
+  .filters{
+    display: none;
+  }
+  .search-section{
+    width: 90%;
+  }
+  .search-input{
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  #search-suggestion{
+    width: 100%;
+  }
+  .navbar-menu{
+    display: none;
+  }
+  .navbar-menu-mobile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .navbar-account{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .listing-container{
+        grid-template-columns: 100%;
+    }
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

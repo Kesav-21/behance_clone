@@ -57,7 +57,7 @@ const handleSort=(e)=>{
     <div className='filter-section'>
         <div className='search-option'>
           <div className='search-section'>
-            <img className='search-input-icon' src="./assets/search.svg" alt="" width={30} height={30}/>
+            <img className='search-input-icon' src="./assets/images/search.svg" alt="" width={30} height={30}/>
             <form autocomplete="off">
               <input className='search-input' type='text' placeholder='Search the creative world at work' id="search" onKeyUp={showResults}/>
             </form>
@@ -74,7 +74,7 @@ const handleSort=(e)=>{
         </div>
         </div>
         <div className='filter-selection'>
-            <div>
+            <div className='filters'>
                 <select className='filter-options'><option>Creative Feilds</option> </select>
                 <select className='filter-options'><option>Tools</option> </select>
                 <select className='filter-options'><option>Color</option> </select>
