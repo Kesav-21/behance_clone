@@ -1,9 +1,53 @@
 /* Header Section */
+.navbar-section{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    min-height: 50px;
+    padding: 10px;
+    align-items: center;
+}
 
+.navbar-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.navbar-account{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar-account a{
+    margin: 15px;
+}
+
+
+.login-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+}
+
+.signup-btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+}
 
 
 .listing-container{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    column-gap: 20px;
+    grid-template-columns: 24% 24% 24% 24%;
+    column-gap: 1%;
+}
+
+.card-img{
+    width: 100%;
 }

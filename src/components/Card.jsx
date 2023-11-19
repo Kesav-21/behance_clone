@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <img src="/src/assets/1.webp" alt="1" />
+      <img className="card-img" src="/src/assets/1.webp" alt="1" />
       <div>
         <div>
           <h3>Short.Short.Short-Loop</h3>
