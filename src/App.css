@@ -115,7 +115,9 @@ a{
     justify-content: space-between;
     margin: 0px 10px;
     border-radius: 0px 30px 30px 0px;
-    padding: 15px;
+    padding: 10px;
+    align-items: center;
+    overflow: hidden;
 }
 
 .category-section a{
@@ -198,8 +200,7 @@ a{
 /* Search Bar Section*/
 
 #search-suggestion {
-    position: absolute;
-  border: 1px dotted #ccc;
+  position: absolute;
   background-color: white;
   padding: 3px;
   width: 45%;
