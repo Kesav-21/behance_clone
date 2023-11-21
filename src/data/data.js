@@ -403,3 +403,7 @@ export const data=[
 ]
 
 export const search_terms = ['digital','typography','art','artwork','games','wallpaper','album','apple','orange','comedy','photography','photo','videos','shooting'];
+
+export const colors=['red','green','blue','yellow','pink'];
+
+export const location=['chennai','coimbatore','hyderabad','bengaluru']

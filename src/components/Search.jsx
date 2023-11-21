@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { search_terms } from '../data/data';
 import Listings from './Listings'
+import {colors} from '../data/data';
+import { location } from '../data/data';
 
 const Search = ({data}) => {
   const [listData,setListData]=useState(data);
@@ -75,10 +77,22 @@ const handleSort=(e)=>{
         </div>
         <div className='filter-selection'>
             <div className='filters'>
-                <select className='filter-options'><option>Creative Feilds</option> </select>
+                <select className='filter-options'>
+                  <option>Creative Feilds</option> 
+                </select>
                 <select className='filter-options'><option>Tools</option> </select>
-                <select className='filter-options'><option>Color</option> </select>
-                <select className='filter-options'><option>Location</option> </select>
+                <select className='filter-options'>
+                  <option>Color</option>
+                  {colors.map(color=>{
+                    return(<option>{color}</option>)
+                  })}
+                  </select>
+                <select className='filter-options'>
+                  <option>Location</option>
+                  {location.map(loc=>{
+                    return(<option>{loc}</option>)
+                  })}
+                  </select>
                 <select className='filter-options'><option>Schools</option> </select>
                 <select className='filter-options'><option>Assets</option> </select>
                 <select cl assName='filter-options'><option>Subscription</option> </select>
